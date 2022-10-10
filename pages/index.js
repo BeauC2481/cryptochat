@@ -35,7 +35,7 @@ const Home = () => {
     const [loading, setLoading] = useState(true);
     const [tipAmount, setTipAmount] = useState("");
     const [activeSelect, setActiveSelect] = useState('Recently Posted');
-    const targetNetworkId = '0x7a69';
+    const targetNetworkId = '0x5';
 
     const checkNetwork = async () => {
       const currentChainId = await window.ethereum.request({
