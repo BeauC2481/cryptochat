@@ -42,7 +42,7 @@ const Profile = () => {
     const { theme } = useTheme();
     const [formInput, updateFormInput] = useState({ username: '' });
     const router = useRouter();
-    const targetNetworkId = '0x7a69';
+    const targetNetworkId = '0x5';
 
     
     const uploadToInfura = async (file) => {
