@@ -19,7 +19,7 @@ const MyApp = ({ Component, pageProps }) => {
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState('');
   const [nfts, setNfts] = useState([]);
-  const targetNetworkId = '0x7a69';
+  const targetNetworkId = '0x5';
 
   const fetchMyNFTs = async () => {
     const web3Modal = new Web3Modal();
